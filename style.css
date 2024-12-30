@@ -12,6 +12,8 @@ body {
 }
 
 
+/*1. The below covers the top part of the page until the next numbered comment */
+
 .header {
     background-color: #1F2637;
     color:white;
@@ -19,6 +21,7 @@ body {
     flex:1;
     display: flex;
     justify-content: center;
+    margin-bottom:50px;
 
 }
 
@@ -83,4 +86,58 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+/*2. The below covers the 2nd from the top section until the next numbered comment. */
+
+.middle {
+    flex:1;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.mid-title {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-bottom:50px;
+}
+
+.mid-content {
+    display: flex;
+    justify-content: center;
+    gap:48px;
+    flex-wrap: wrap;
+}
+
+.mid-squares {
+    max-width:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+
+}
+
+.mid-pic {
+    min-height:150px;
+    width:100%;
+    border:#3882F6 solid;
+    border-radius: 10px;
+
+
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex:1;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color:#1F2937;
 }
