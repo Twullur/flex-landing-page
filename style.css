@@ -124,20 +124,80 @@ body {
     width:100%;
     border:#3882F6 solid;
     border-radius: 10px;
-
-
 }
+
+/*3. The below covers the 3rd from the top section until the next numbered comment. */
 
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    flex:1;
+    flex-wrap:wrap;
+    
+}
+
+.quote-container {    
+    max-width: 830px;
+    padding:100px 0;
 }
 
 .quote-text {
     font-style: italic;
     font-size: 36px;
     color:#1F2937;
+}
+
+.quote-name {
+    font-weight: bold;
+    text-align: right;
+}
+
+/*4. The below covers the 4th from the top section until the next numbered comment. */
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px 0;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color:white;
+    display:flex;
+    padding:48px 200px;
+    border-radius:8px;
+    gap:150px;
+}
+
+.action button {
+    background-color: #3882F6;
+    border:white solid 3px;
+    border-radius: 5px;
+    color:white;
+    padding:8px 24px;
+    font-weight: bold;
+}
+
+.action-text-top {
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.action-text-bottom {
+    font-size:16px;
+}
+
+/*5. The below covers the 5th or last from the top section until the next numbered comment. */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2637;
+    color:white;
+}
+
+.footer-container {
+    padding:16px 0;
 }
